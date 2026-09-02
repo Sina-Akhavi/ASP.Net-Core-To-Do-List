@@ -1,0 +1,14 @@
+# Build results
+bin/
+obj/
+
+# User specific files
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Environment files
+.env
