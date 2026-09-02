@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/drsystem/employment/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj": {}
+    "/home/drsystem/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/home/drsystem/employment/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj": {
+    "/home/drsystem/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/drsystem/employment/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/home/drsystem/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/home/drsystem/employment/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj",
+        "projectPath": "/home/drsystem/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/TodoApi.csproj",
         "packagesPath": "/home/drsystem/.nuget/packages/",
-        "outputPath": "/home/drsystem/employment/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/obj/",
+        "outputPath": "/home/drsystem/bitbaan/self-development/skill/dot-net/ASP.Net-Core-To-Do-List/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/drsystem/.nuget/NuGet/NuGet.Config"

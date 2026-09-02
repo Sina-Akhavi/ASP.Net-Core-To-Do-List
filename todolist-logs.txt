@@ -1,0 +1,12 @@
+2.1 Add the Required NuGet Packages
+
+2.2 Create a Domain Model (Entity)
+
+2.3 Create the Database Context
+
+2.4 Store the Connection String in Configuration
+
+2.5 Register the DbContext with Dependency Injection
+
+2.6 Create and Apply Your First Database Migration
+
