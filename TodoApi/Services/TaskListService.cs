@@ -54,4 +54,54 @@ public class TaskListService : ITaskListService
             })
             .ToListAsync();
     }
+
+    public async Task<TaskListDto?> GetByIdAsync(int id)
+    {
+        return await _context.TaskLists
+            .Where(x => x.Id == id && !x.IsDeleted)
+            .Select(x => new TaskListDto
+            {
+                Id = x.Id,
+                Name = x.Name,
+                ImageUrl = x.ImageUrl,
+                CreatedAt = x.CreatedAt
+            })
+            .FirstOrDefaultAsync();
+    }
+
+    public async Task<bool> UpdateAsync(int id, UpdateTaskListDto dto)
+    {
+        var taskList = await _context.TaskLists.FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
+
+        if (taskList == null)
+        {
+            return false;
+        }
+
+
+        taskList.Name = dto.Name;
+
+
+        await _context.SaveChangesAsync();
+
+
+        return true;
+    }
+
+    public async Task<bool> DeleteAsync(int id)
+    {
+        var taskList = await _context.TaskLists.FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
+        
+        if (taskList == null)
+        {
+            return false;
+        }
+
+        taskList.IsDeleted = true;
+
+        await _context.SaveChangesAsync();
+
+        return true;
+    }
+
 }
