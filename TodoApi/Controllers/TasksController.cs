@@ -11,7 +11,6 @@ public class TasksController : ControllerBase
 {
     private readonly ITaskService _service;
 
-
     public TasksController(ITaskService service)
     {
         _service = service;
